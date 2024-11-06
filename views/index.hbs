@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Chaplin</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    {{> menu }}
+    {{> slider }}
+    {{> tienda }}
+    <script src="js/bootstrap.min.js"></script>
+</body>
+<div class="row carrusel justify-content-center mt-5"> 
+        <div id="carouselExampleFade" class="carousel slide carousel-fade col-8">
+            <div class="carousel-inner">
+                <div class="carousel-item active  d-flex justify-content-center">
+                    <img src="/robot1.jpg" class="imagen" alt="...">
+                </div>
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="/circulo1.jpg" class="imagen" alt="...">
+                </div>
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="/sonrie1.jpg" class="imagen" alt="...">
+                </div>
+                 <div class="carousel-item d-flex justify-content-center">
+                    <img src="/guason1.jpg" class="imagen" alt="...">
+                </div>
+        </div>
+    <div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+       </button>
+    </div>    
+      
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+</div>
+</html>

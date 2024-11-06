@@ -1,0 +1,38 @@
+.fondo_menu {
+    background-color: rgb(107, 102, 216);
+}
+
+.boton{
+    display: flex;
+    width: 100px;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    
+    
+}
+
+.boton:hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid white;
+    height: 88px;
+    margin-bottom: 30px;
+    animation: animar_boton .5s;
+    width: 100px;
+}
+
+@keyframes animar_boton{
+    from {
+        width: 10px;
+    }
+    to{
+        width: 100px;
+    }
+   
+}
+
+

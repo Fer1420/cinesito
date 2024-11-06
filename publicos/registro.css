@@ -1,0 +1,14 @@
+.formulario{
+    background-color:  rgb(107, 102, 216);
+    height: 50vh;
+    color: white;
+}
+.boton_enviar{
+    border: 2px solid white;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
