@@ -1,17 +1,10 @@
-.carrusel{
-    height: 50vh;
-   
+.fondo{background-color: rgb(223,228,231);
+
 }
+   
+
 .imagen{
     width: 80%;
     height: 50vh;
 }
 
-.carousel-control-next,
-.carousel-control-prev{
-    width: 40px;
-    height: 40px;
-    margin-top: 23vh;
-    background-color: rgb(107, 102, 216);
-    border-radius: 50%;
-}

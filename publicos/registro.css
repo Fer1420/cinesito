@@ -1,14 +1,35 @@
+.fondoregistro{
+    background-color: rgb(223,228,231);
+    height: 100vh;
+}
 .formulario{
-    background-color:  rgb(107, 102, 216);
-    height: 50vh;
+    background-color:  rgb(15, 15, 15);
+    height: 65vh;
     color: white;
 }
 .boton_enviar{
     border: 2px solid white;
-    background-color: transparent;
+    background-color: rgb(15, 15, 15);
     width: 200px;
     height: 40px;
     border-radius: 5px;
     color: white;
 }
 
+.mensaje_error{
+    position: absolute;
+    width: 20%;
+    margin-left: 5%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje{
+    
+    width: 80%;
+    height: 40%;
+    padding: 10px;
+    display: none;
+    background-color: brown;
+}

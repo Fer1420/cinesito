@@ -1,0 +1,19 @@
+.contacto{
+    background-color: rgb(231, 223, 223);
+    height: 110vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1{text-align: center;
+
+}
+h2{
+    color: rgb(15,15,15);
+    text-align:left;
+}
+h3{
+    text-align: center;
+}
+ul{
+    font-size: 150%;
+}

@@ -1,5 +1,5 @@
 .formulario{
-    background-color:  rgb(107, 102, 216);
+    background-color:  rgb(15, 15, 15);
     height: 40vh;
     color: white;
 }
@@ -10,4 +10,8 @@
     height: 40px;
     border-radius: 5px;
     color: white;
+}
+.fondoLogin{
+   background-color: rgb(223,228, 231) ;
+    height: 100vh;
 }

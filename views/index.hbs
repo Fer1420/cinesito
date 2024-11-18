@@ -6,40 +6,108 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="index.css">
+	
 </head>
 <body>
     {{> menu }}
     {{> slider }}
     {{> tienda }}
     <script src="js/bootstrap.min.js"></script>
+
 </body>
-<div class="row carrusel justify-content-center mt-5"> 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade col-8">
-            <div class="carousel-inner">
-                <div class="carousel-item active  d-flex justify-content-center">
-                    <img src="/robot1.jpg" class="imagen" alt="...">
-                </div>
-                <div class="carousel-item d-flex justify-content-center">
-                    <img src="/circulo1.jpg" class="imagen" alt="...">
-                </div>
-                <div class="carousel-item d-flex justify-content-center">
-                    <img src="/sonrie1.jpg" class="imagen" alt="...">
-                </div>
-                 <div class="carousel-item d-flex justify-content-center">
-                    <img src="/guason1.jpg" class="imagen" alt="...">
-                </div>
-        </div>
-    <div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-       </button>
-    </div>    
-      
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
+<section class="home-blog bg-sand">
+    <div class="fondo">
+    <div class="container">
+		<!-- section title -->
+		<div class="row justify-content-md-center">
+			<div class="col-xl-5 col-lg-6 col-md-8">
+				<div class="section-title text-center title-ex1">
+					<h2>Proximos Estrenos!!</h2>
+					<h4>Cartelera</h4>
+				</div>
+			</div>
+		</div>
+		<!-- section title ends -->
+		<div class="row ">
+			<div class="col-md-6">
+				<div class="media blog-media">
+				  <a href="/Reservar"><img class="d-flex" src="/sonrie.jpg" alt="Generic placeholder image"></a>
+				  <div class="circle">
+				  	<h5 class="day">Sonrie 2</h5>
+				  	<span class="month">Duración: 2h 10m</span>
+				  </div>
+				  <div class="media-body">
+				    <h5 class="day">Descripción:</h5></a>
+				    La estrella del pop mundial Skye Riley está a punto de embarcarse en una nueva gira mundial cuando empieza a experimentar una serie de sucesos cada vez más aterradoras e inexplicables. Angustiada por la espiral de horrores y la abrumadora presión de la fama, Skye tendrá que enfrentarse a su oscuro pasado para recuperar el control de su vida antes de que sea demasiado tarde.
+				   
+				    <ul>
+				    	<li>Género: Terror-Suspenso</li>
+                    <li>Calificación: Apta +18</li>
+				    </ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="media blog-media">
+				  <a href="/Reservar"><img class="d-flex" src="/rompercirculo.jpg" alt="Generic placeholder image"></a>
+				  <div class="circle">
+  				  	<h5 class="day">Romper el circulo</h5>
+  				  	<span class="month">Duración: 2h 10m</span>
+  				  </div>
+				  <div class="media-body">
+				    <h5 class="day">Descripción:</h5></a>
+				    Lily Bloom (Blake Lively) es una mujer que se sobrepone a una infancia traumatica para embarcarse en una nueva vida en Bostón y persigue su sueño de abrir su propio negocio. Un encuentro casual con el encantador neurocirujano Ryle Kincaid (Justin Baldoni) desata una intensa conexión entre ellos, pero al tiempo que ambos se enamoran profundamente, Lily comienza a ver en Ryle aspectos que le recuerdan la relación que tenian sus padres . Cuando el primer amor de Lily, Atlas Corrigan (Brandon Sklenar), repentinamente reaparece en su vida, su relación con Ryle da un vuelco, y Lily se da cuenta de que debe aprender a confiar en su propia fuerza para tomar una dificil elección para su futuro.
+				    
+				    <ul>
+				    	<li>Género: Romance-Drama</li>
+                    <li>Calificación: Apta +18</li>
+				    </ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="media blog-media">
+				  <a href="/Reservar"><img class="d-flex" src="/guason1.jpg" alt="Generic placeholder image"></a>
+				  <div class="circle">
+  				  	<h5 class="day">El Guasón 2</h5>
+  				  	<span class="month">Duración: 2h 20m</span>
+                    
+  				  </div>
+				  <div class="media-body">
+				    <h5 class="day">Descripción:</h5></a>
+				    Arthur Fleck se encuentra institucionalizado en Arkham esperando juicio por sus crimenes como Guasón. Mientras lucha con su doble identidad, Arthur no sólo tropieza con el verdadero amor, sino que también encuentra la música que siempre ha estado dentro de él.
+		
+                     <ul>
+				    <li>Género: Crimen-Drama</li>
+                    <li>Calificación: Apta +18</li>
+				
+				    	
+				    </ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="media blog-media">
+				  <a href="/Reservar"><img class="d-flex" src="/robot.jpg" alt="Generic placeholder image"></a>
+				  <div class="circle">
+  				  	<h5 class="day">Robot salvaje</h5>
+  				  	<span class="month">Duración 1h 45m</span>
+  				  </div>
+				  <div class="media-body">
+				    <h5 class="day">Descripción:</h5></a>
+				    Sigue la historia de un robot llamado Roz, que naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de un ganso huérfano.
+				    
+				    <ul>
+				    	<li>Género: Animación</li>
+                    <li>Calificación: Apta para todo público.</li>
+				    </ul>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>    
+</section>
+       
 </div>
 </html>
