@@ -2,7 +2,7 @@ import  bcrypt from "bcryptjs"
 import { agregarUsuario, buscarCorreo, buscar_usuario_contra } from "./bd/usuarios.js"
 
 const encriptar = async(req,res,next)=>{
-   let { correo,cotraseña,datepicker } = req.body
+   let { correo,contraseña,datepicker } = req.body
    buscarCorreo (correo, async(err, existe) => {
     if (err) {
         console.error("Error en la búsqueda del correo:", err);

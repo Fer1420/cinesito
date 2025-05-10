@@ -28,8 +28,10 @@
 .mensaje{
     
     width: 80%;
-    height: 40%;
+    height: 30%;
     padding: 10px;
     display: none;
-    background-color: brown;
+    background-color: rgb(150, 60, 60);
+    color:white;
+    border-radius: 10px;
 }

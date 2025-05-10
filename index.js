@@ -5,7 +5,7 @@ import routes from './routes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import hbs from 'hbs';
-
+import { validar } from "./funciones_backend/validar_registro.js"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -42,9 +42,11 @@ app.get('/login', (req, res) => {
 });
 
 app.get("/registro", (req, res) => {
-  let mensaje= ""
-  let mostrar_error= true
-  res.status(200).render('registro.hbs', { botones , mostrar_error, mensaje});
+  let  contra  = req.body
+  console.log(contra)
+  let mensaje="la contraseña no es valida"
+ // let mostrar_error= validar(contra=true)
+  res.status(200).render('registro.hbs', { botones ,/* mostrar_error, mensaje*/});
 });
 
 app.post("/registro", (req, res) => {

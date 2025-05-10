@@ -3,7 +3,8 @@ import morgan from 'morgan'
 import  hbs  from "hbs" 
 import { fileURLToPath } from "url" 
 import { dirname } from "path"
-
+import { config } from 'dotenv'
+config()
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 

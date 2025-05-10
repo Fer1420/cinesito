@@ -1,11 +1,13 @@
 // db.js
 import mysql from 'mysql2';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '123456789',
-  database: 'usuariosdb',
+  host: process.env.ip,        // Cambia esto si tu base de datos está en otro host
+  user: process.env.usuario,   // Tu nombre de usuario
+  password: process.env.contra, // Tu contraseña
+  database: process.env.bd      // El nombre de la base de datos a la que te quieres conectar
 });
 
 connection.connect((err) => {

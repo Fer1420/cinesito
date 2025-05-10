@@ -1,5 +1,6 @@
 let validarContrasena=(contrasena)=> {
   
+    
     if (!contrasena) {
         let verificar = document.querySelector(".mensaje").style.display = "flex"
         let verificar_contra = document.querySelector("#mensaje").innerHTML= `
@@ -38,14 +39,17 @@ let validarContrasena=(contrasena)=> {
 const enviar_registro= async(e)=>{
     e.preventDefault()
     let correo = document.querySelector("#correo").value
-    let contraseña = document.querySelector("#contraseña").value
-    let contraseña2 = document.querySelector("#contraseña2").value
+    let contra = document.querySelector("#contra").value
+    let contra2 = document.querySelector("#contra2").value
     let datepicker = document.querySelector("#datepicker").value
-    if(contraseña==contraseña2){
+    
+    
+    if(contra==contra2){
+        console.log(contra,contra2,correo)
         validarContrasena()
         let datos ={
             correo,
-            contra:contraseña,
+            contra:contra,
             datepicker
         }
         await fetch('/registro', {
